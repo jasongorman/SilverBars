@@ -2,10 +2,10 @@ package com.silverbars.liveorders;
 
 public class Order {
 
-	private OrderType type;
-	private double quantity;
-	private double price;
-	private String userID;
+	private final OrderType type;
+	private final double quantity;
+	private final double price;
+	private final String userID;
 
 	public Order(OrderType type, double price, double quantity, String userID) {
 		this.type = type;

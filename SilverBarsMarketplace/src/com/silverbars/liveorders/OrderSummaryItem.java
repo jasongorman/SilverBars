@@ -2,8 +2,8 @@ package com.silverbars.liveorders;
 
 public class OrderSummaryItem {
 
-	private double quantity;
-	private double price;
+	private final double quantity;
+	private final double price;
 
 	public OrderSummaryItem(double price, Double quantity) {
 		this.price = price;
